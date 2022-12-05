@@ -20,7 +20,7 @@ for(let i = 1 ; i<= 7 ; i+=2){
 for(let row = 1 ; row<= 5 ;row++){
   for( let col = 1 ; col <= 9 ; col++){
       if( (row ==5) || (row+col==6) || (col-row==4)){
-          document.write("*");
+          document.write(" *");
       }else{
           document.write("&nbsp;&nbsp");
 
